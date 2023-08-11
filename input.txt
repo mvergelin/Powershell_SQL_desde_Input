@@ -1,0 +1,2 @@
+"ne/Port/LAG_parentFN": "R1.S1.NTA",
+    "name": "OLT1_Corrientes:IHUB:10"

@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `$DATABASE$`;
+CREATE TABLE `$DATABASE$`  (
+  `id` bigint(20) NOT NULL,
+  `last_update` datetime(0) NULL DEFAULT NULL,
+  $VARIABLES$
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+
+SET FOREIGN_KEY_CHECKS = 1;
